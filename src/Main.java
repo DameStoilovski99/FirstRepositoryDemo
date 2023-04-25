@@ -11,14 +11,14 @@ public class Main {
 
         PalindromeCheck palindrome = new PalindromeCheck();
         String word = "121121";
-        boolean result = palindrome.CheckForPalindrome(word);
-        System.out.println(result);
+        boolean result1 = palindrome.CheckForPalindrome(word);
+        System.out.println(result1);
 
         CheckTheSum sumChecker = new CheckTheSum();
         String first = "acb";
         String second = "cba";
         String third = "cdb";
-        boolean result = sumChecker.TwoStringsEqualsThird(first, second, third);
-        System.out.println(result);
+        boolean result2 = sumChecker.TwoStringsEqualsThird(first, second, third);
+        System.out.println(result2);
         }
     }
